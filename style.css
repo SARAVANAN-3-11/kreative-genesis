@@ -1,0 +1,7 @@
+.score-ring { 
+    background: conic-gradient(#10b981 var(--score), #e5e7eb var(--score)); 
+}
+.metric-card { transition: all 0.3s ease; }
+.metric-card:hover { transform: translateY(-2px); }
+.issue-card:hover { transform: translateX(4px); }
+#codeEditor { font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace; }
