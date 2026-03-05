@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Vikna AI Compiler</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://unpkg.com/monaco-editor@0.45.0/min/vs/loader.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- LEFT PANEL -->
+
+<div id="leftPanel">
+
+<h1 class="logo">⚡ Vikna Compiler</h1>
+
+<div class="aiCard">
+
+<h2>🤖 AI Assistant</h2>
+
+<p>
+Future AI coding assistant will help you:
+</p>
+
+<ul>
+<li>Explain code</li>
+<li>Fix bugs</li>
+<li>Optimize algorithms</li>
+<li>Generate test cases</li>
+<li>Convert languages</li>
+</ul>
+
+<button class="aiBtn">Coming Soon</button>
+
+</div>
+
+<div class="tips">
+
+<h3>💡 Coding Tips</h3>
+
+<p>
+Always think about <b>time complexity</b>.
+</p>
+
+<p>
+Prefer <b>O(log n)</b> algorithms over <b>O(n²)</b>.
+</p>
+
+</div>
+
+</div>
+
+<!-- RIGHT PANEL -->
+
+<div id="rightPanel">
+
+<div class="header">
+
+<select id="language">
+<option value="java">Java</option>
+<option value="python">Python</option>
+<option value="c">C</option>
+<option value="cpp">C++</option>
+</select>
+
+<button id="runBtn">▶ Run Code</button>
+
+</div>
+
+<div id="filename">Main.java</div>
+
+<div id="editor"></div>
+
+<div class="ioPanel">
+
+<div class="inputBox">
+
+<h3>Input</h3>
+
+<textarea id="input" placeholder="Enter program input here..."></textarea>
+
+</div>
+
+<div class="outputBox">
+
+<h3>Output</h3>
+
+<pre id="output"></pre>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
